@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="virtuallyvr-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded Base Background -->
+  <rect width="64" height="64" rx="16" fill="url(#virtuallyvr-grad)" />
+  
+  <!-- 3D Isometric Box (Dark Slate fill & Crisp Line details matching Lucide Box) -->
+  <g stroke="#070B14" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Top Face -->
+    <path d="M32 14 L50 24 L32 34 L14 24 Z" />
+    <!-- Bottom Left Face -->
+    <path d="M14 24 L14 42 L32 52 L32 34 Z" />
+    <!-- Bottom Right Face -->
+    <path d="M50 24 L50 42 L32 52 L32 34 Z" />
+  </g>
+</svg>

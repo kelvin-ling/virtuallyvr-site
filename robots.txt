@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://virtuallyvr.com/sitemap.xml
